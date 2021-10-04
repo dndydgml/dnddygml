@@ -11,10 +11,10 @@ int main()
 	scanf_s("%d %d", &x2, &y2);
 
 	r1 = x2 - x1;
-	r2 = y1 - y2;
+	r2 = y2 - y1;
 
 	r3 = r1 * r2;
 
 	printf("두 점이 이루는 직사각형의 넓이는 %d입니다. \n", r3);
-	return 0 ;
+	return 0;
 }
